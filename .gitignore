@@ -1,0 +1,40 @@
+# Archivos de entorno virtual
+venv/
+.venv/
+env/
+.env/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de PyInstaller y otros empaquetadores
+dist/
+build/
+*.spec
+
+# Archivos de logs
+*.log
+
+# Archivos de base de datos local (si usas SQLite u otra DB local)
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales del sistema operativo
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Archivos específicos de entornos de desarrollo (ej. VS Code)
+.vscode/
+
+# Configuraciones de Uvicorn (si las tuvieras en un archivo)
+.uvicorn.json
+
+# Notas:
+# El archivo .env contiene información sensible (claves secretas, credenciales de DB).
+# NUNCA lo subas a un repositorio público. Railway, u otras plataformas,
+# tienen sus propias formas de manejar las variables de entorno de forma segura.
